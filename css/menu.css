@@ -549,6 +549,9 @@ video {
 .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu {
   padding: 20px 20px;
 }
+.header-phone a {
+  text-transform: none !important;
+}
 /*
 .wsmenu > .wsmenu-list > li > .wsmegamenu .title {
   padding: 9px 5px 9px 0px;
@@ -1149,7 +1152,9 @@ body.wsactive {
 
 .wsmobileheader {
   width: 100%;
-  display: block;
+  display: flex;               /* change from block to flex */
+  justify-content: flex-end;   /* push logo to the right */
+  align-items: center;         /* vertically center content */
   position: fixed;
   top: 0;
   left: 0;

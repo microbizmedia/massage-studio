@@ -30,7 +30,7 @@ body {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #283034;
   font-weight: 300;
-  text-align: right;
+    direction: ltr;
 }
 
 /*------------------------------------------------------------------*/
@@ -462,7 +462,7 @@ ul {
   font-size: 1.05rem;
   line-height: 1.5rem;
   float: right;
-  margin-left: 10px;
+  margin-right: 10px;
   top: 2px;
 }
 
@@ -805,7 +805,7 @@ ol.digit-list p {
 
 .section-title p {
   color: #888;
-  padding: 0 15%;
+  padding: 0 0%;
   margin: 12px 0 0;
 }
 
@@ -5896,6 +5896,7 @@ nav a#pull {
 .s_1 img:hover {
   opacity: 0.8;
 }
+
 
 
 

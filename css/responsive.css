@@ -648,8 +648,8 @@
 
   .about-5-banner { width: 45%; padding: 45px 40px; }
 
-  #about-1 .img-block img { width: 200%; right: -100%; position: relative; max-width: none; display: inline-block; }
-  #about-2 .img-block img { width: 200%; position: relative; max-width: none; display: inline-block; }
+  #about-1 .img-block img { width: 100%; right:0%; position: relative; max-width: none; display: inline-block; }
+  /* #about-2 .img-block img { width: 200%; position: relative; max-width: none; display: inline-block; } */
   .about-6-img img { width: 280%; }
 
   #a7-3, #s8-2 { display: none; }
