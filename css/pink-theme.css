@@ -3886,6 +3886,7 @@ ol.digit-list p {
   font-weight: 300;
   font-style: italic;
   padding: 0 8%;
+  direction: ltr;
 }
 
 .review-2-txt p.review-txt {
@@ -4834,9 +4835,10 @@ select:-webkit-autofill:focus {
   =========================================================================== */
 
 .footer {
-  padding-top: 100px;
+  padding-top: 0px;
   padding-bottom: 30px;
 } 
+
 
 .footer-contacts {
   padding-right: 5px;

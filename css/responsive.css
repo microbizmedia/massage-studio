@@ -559,7 +559,7 @@
   }
 
   .wsmenu > .wsmenu-list > li a.btn.btn-tra-white { background-color: #eee; border-color: #eee; color: #666; }
-  .wsmobileheader .smllogo { display: block; margin-top: 15px; padding-right: 28px; }
+  .wsmobileheader .smllogo { display: block; margin-top: 0px; padding-right: 28px; }
 
   /*------------------------------------------*/
   /*   HERO   
@@ -961,7 +961,7 @@
   }
 
   .wsmenu > .wsmenu-list > li a.btn.btn-tra-white { background-color: #eee; border-color: #eee; color: #666; }
-  .wsmobileheader .smllogo { display: block; margin-top: 15px; }
+  .wsmobileheader .smllogo { display: block; margin-top: 0px; }
 
   /*------------------------------------------*/
   /*   HERO   
@@ -994,7 +994,9 @@
   /* Sidebar */
   #blog-page #sidebar, #single-post #sidebar { margin-top: 70px; } 
 
-
+ .footer-copyright {
+    flex-direction: column;
+  }
 
 
 }
